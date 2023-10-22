@@ -37,8 +37,23 @@
     <form action="#">
         <fieldset>
             <legend>Is your cat an indoor or outdoor cat?</legend>
-            <input type="radio" id="" name="indoor">
+            <input type="radio" id="indoor" name="in/out">
+            <label for="indoor">Indoor</label>
+            <input type="radio" id="outdoor" name="in/out">
+            <label for="outdoor">Outdoor</label>
         </fieldset>
+        <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input type="checkbox" id="loving" name="personality">
+            <label for="loving">Loving</label>
+            <input type="checkbox" id="lazy" name="personality">
+            <label for="lazy">Lazy</label>
+            <input type="checkbox" id="energetic" name="personality">
+            <label for="energetic">Energetic</label>
+        </fieldset>
+        <input type="url" placeholder="cat photo url" required> 
+        <button>Submit</button>
     </form>
+    <p>No copyright &#169;</p>
 </body>
 </html>
